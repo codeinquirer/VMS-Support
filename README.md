@@ -7,7 +7,6 @@ VMS Support was developed in the year 2016 to become and integrative system to a
 1. Android Mobile Device
  	- at least dual-core processor
 	- at least 512MB RAM
-	- at least 512MB RAM
 	- at least 2.2 Android Version
 2. Eclipse IDE
   
