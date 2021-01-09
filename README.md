@@ -2,6 +2,16 @@
 
 VMS Support was developed in the year 2016 to become and integrative system to a computerized visitor management system. ). The application is used as receiver of visit notification, respond to the CVMS and update the current whereabout.  Visit notification was build using a mobile offline push notification which will not force the organization to invest in internet provider and subscribe to a premium push notification service. User may respond to notification by sending a message that may be visible to the CVMS and update its current whereabout to guide the visitor correctly
 
+######  Hardware and Software requirements
+
+1. Android Mobile Device
+ 	at least dual-core processor
+	at least 512MB RAM
+	at least 512MB RAM
+	any android Version
+2. Eclipse IDE
+  
+
 ######  Downloading VMS Support Application from the Github and importing to Eclipse IDE
 
 1.	Click the CODE in the upper right corner.
@@ -13,17 +23,6 @@ VMS Support was developed in the year 2016 to become and integrative system to a
 7.	Projects → Select All
 8.	Uncheck Copy projects into workspace and Add project to working sets
 9.	Finish
-
-######  Hardware and Software requirements
-
-1. Android Mobile Device
-  *at least dual-core processor
-	*at least 512MB RAM
-	*at least 512MB RAM
-	*any android Version
-2. Eclipse IDE
-  
- 
 
 #### VMS Support Application User Manual
 
