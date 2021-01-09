@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayoutUserMainMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2d1e5" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_header" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:padding="7dp"
+                android:text="Welcome,"
+                android:textColor="#FFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgUserMenuConnStatus"
+                android:layout_width="45dp"
+                android:layout_height="47dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/online" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayoutUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableLayout1"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="-30dp" >
+
+        <TableRow
+            android:id="@+id/tableRowUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Borsling Borslak Wanderslokak"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center_vertical" >
+
+        <TableRow
+            android:id="@+id/tableRowMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:src="@drawable/messages" />
+
+            <ImageView
+                android:id="@+id/imgWriteNewMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:src="@drawable/write_message" />
+
+            <ImageView
+                android:id="@+id/imgSetting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33"
+                android:src="@drawable/app_settings" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_below="@+id/tableLayout2"
+        android:paddingRight="16dp"
+        android:paddingLeft="14dp"
+        android:gravity="center_vertical" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+          <TableRow
+            android:id="@+id/tableRowLabels"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           
+            android:gravity="center" >
+
+			        <TextView
+			            android:id="@+id/textViewMenuLabelMessage"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:layout_weight=".33"
+			            android:gravity="center"
+			            android:text="" />
+			
+			        <TextView
+			            android:id="@+id/textViewMenuLabel2"
+			            android:layout_width="0dp"
+			            android:layout_height="wrap_content"
+			            android:layout_weight=".33"
+			            android:gravity="center"
+			            android:text="" />
+			        
+			         <TextView
+			             android:id="@+id/textViewMenuLabel3"
+			             android:layout_width="0dp"
+			             android:layout_height="wrap_content"
+			             android:layout_weight=".33"
+			             android:gravity="center"
+			             android:text="" />
+         
+          </TableRow>
+        
+    </TableLayout>
+
+   
+
+</RelativeLayout>

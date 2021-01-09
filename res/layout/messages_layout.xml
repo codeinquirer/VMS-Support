@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="450dp"
+    android:background="#d2d1e5" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_header" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:padding="7dp"
+                android:text="Welcome,"
+                android:textColor="#FFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgMessagesConnStatus"
+                android:layout_width="45dp"
+                android:layout_height="47dp"
+                android:layout_marginRight="7dp"
+                android:src="@drawable/online" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayoutUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableLayout1"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="-30dp" >
+
+        <TableRow
+            android:id="@+id/tableRowUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Borsling Borslak Wanderslokak"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+         android:id="@+id/tblLayoutMessagesTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="16dp" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/messages" />
+
+            <TextView
+                android:id="@+id/txtTitleSettings"
+                android:layout_width="0dp"
+                android:layout_weight=".4"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:textSize="24sp"
+                android:text="Messages" />
+
+            <ImageView
+                android:id="@+id/imgBackMenu"
+                android:layout_marginTop="10dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/back_icon" />
+
+        </TableRow>
+        
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tblWriteNewMessage"
+        android:layout_below="@id/tblLayoutMessagesTitle"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+           
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
+</ScrollView>

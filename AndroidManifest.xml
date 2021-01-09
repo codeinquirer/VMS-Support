@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naldrix.vmssupport"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 
+    
+		
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.naldrix.vmssupport.Index_Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <receiver android:name="com.naldrix.vmssupport.AlertReceiver" />
+        
+        <activity android:name="com.naldrix.vmssupport.UserValidation_Activity"></activity>
+        
+        <activity android:name="com.naldrix.vmssupport.UserMainMenu_Activity"></activity>
+        
+        <activity android:name="com.naldrix.vmssupport.Messages_Activity"></activity>
+        
+        <activity android:name="com.naldrix.vmssupport.MessageByID_Activity"></activity>
+        
+        <activity android:name="com.naldrix.vmssupport.Settings_Activity"></activity>
+        
+        <activity android:name="com.naldrix.vmssupport.WriteNewMessage_Activity"></activity>
+        
+    </application>
+
+</manifest>

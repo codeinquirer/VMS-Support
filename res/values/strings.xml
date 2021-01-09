@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VMS Support</string>
+    <string name="app_desc">
+        The purpose of this application is to support the Visitor Management System
+        of Carlos Hilado Memorial State College - Alijis Campus. 
+        This will only usable in the said school campus.
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

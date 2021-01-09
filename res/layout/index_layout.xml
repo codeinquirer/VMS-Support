@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:id="@+id/tableIndexLogo"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgBigLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo_big" />
+            
+        </TableRow>
+
+        
+    </TableLayout>
+    
+    <TableLayout
+        android:id="@+id/tableIndexDesc"
+        android:layout_below="@+id/tableIndexLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:background="#3960d0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewAppDesc"
+                android:textColor="#FFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:text="@string/app_desc"
+                android:textSize="16dp" />
+
+        </TableRow>        
+   	</TableLayout>
+   	
+    <TableLayout
+        android:id="@+id/tableIndexInstruction"
+        android:layout_below="@+id/tableIndexDesc"
+        android:background="#3960d0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <TableRow
+            android:id="@+id/tableRow4"            
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                android:id="@+id/textViewInstruction"  
+                android:textColor="#FFF"             
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="[ Tap the logo to continue ]"
+                android:textAlignment="center" />
+
+        </TableRow>        
+   	</TableLayout>
+
+</RelativeLayout>
