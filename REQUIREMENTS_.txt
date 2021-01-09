@@ -1,5 +1,0 @@
-*Android Phone
-	*at least dual-core processor
-	*at least 512MB RAM
-	*at least 512MB RAM
-	*any android Version
