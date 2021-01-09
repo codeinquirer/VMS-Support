@@ -1,6 +1,6 @@
 # VMS-Support
 
-Downloading VMS Support Application from the Github and importing to Eclipse IDE
+##Downloading VMS Support Application from the Github and importing to Eclipse IDE
 
 1.	Click the CODE in the upper right corner.
 2.	Click the DOWNLOAD ZIP.
