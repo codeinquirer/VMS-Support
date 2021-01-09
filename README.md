@@ -14,6 +14,17 @@ VMS Support was developed in the year 2016 to become and integrative system to a
 8.	Uncheck Copy projects into workspace and Add project to working sets
 9.	Finish
 
+######  Hardware and Software requirements
+
+1. Android Mobile Device
+  *at least dual-core processor
+	*at least 512MB RAM
+	*at least 512MB RAM
+	*any android Version
+2. Eclipse IDE
+  
+ 
+
 #### VMS Support Application User Manual
 
 ###### VMS Support Application User Manual
