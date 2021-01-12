@@ -1,6 +1,6 @@
 # VMS-Support
 
-VMS Support was developed in the year 2016 to become and integrative system to a computerized visitor management system. ). The application is used as receiver of visit notification, respond to the CVMS and update the current whereabout.  Visit notification was build using a mobile offline push notification which will not force the organization to invest in internet provider and subscribe to a premium push notification service. User may respond to notification by sending a message that may be visible to the CVMS and update its current whereabout to guide the visitor correctly
+VMS Support was developed in the year 2016 to become an integrative system to a computerized visitor management system. ). The application is used as receiver of visit notification, respond to the CVMS and update the current whereabout.  Visit notification was build using a mobile offline push notification which will not force the organization to invest in internet provider and subscribe to a premium push notification service. User may respond to notification by sending a message that may be visible to the CVMS and update its current whereabout to guide the visitor correctly
 
 ######  Hardware and Software requirements
 
